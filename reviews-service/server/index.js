@@ -5,7 +5,7 @@ const path = require('path');
 const db = require('../database/index.js');
 
 const app = express();
-const PORT = 3002;
+const PORT = 3003;
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));

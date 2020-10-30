@@ -44,8 +44,8 @@ class ReviewModule extends React.Component {
   }
 
   componentDidMount() {
-    this.getRestaurantInfo();
-    this.getReviewsList();
+    // this.getRestaurantInfo();
+    // this.getReviewsList();
   }
 
   getRestaurantInfo(x = 1) {
@@ -85,12 +85,7 @@ class ReviewModule extends React.Component {
 
       <div>
         <Main>
-          <Wrapper1>
-            {/* <RestaurantInfo restaurant={restaurant} length={reviewLength} /> */}
-            {reviewsList.map((review, index) => (
-              <ReviewEntry review={review} key={index} />
-            ))}
-          </Wrapper1>
+          Reviews!
         </Main>
       </div>
     );
